@@ -4,11 +4,11 @@ This project is a lightweight FastAPI-based REST API that uses the Ollama API (M
 
 ## 🚀 Features
 
-- ✅ **API Key Authentication** via headers
-- 💳 **Credit Limiting**: Each key is allocated 5 credits by default
-- 🤖 **Ollama Integration** using the `mistral` model
-- 🌐 **Simple REST API** using FastAPI
-- 🧪 **Testing Script** to quickly verify the API
+- **API Key Authentication** via headers
+- **Credit Limiting**: Each key is allocated 5 credits by default
+- **Ollama Integration** using the `mistral` model
+- **Simple REST API** using FastAPI
+- **Testing Script** to quickly verify the API
 
 ## 🧾 Requirements
 
@@ -75,3 +75,7 @@ curl -X POST "http://127.0.0.1:8000/generate?prompt=Tell me about AI"   -H "x-ap
 - [Ollama](https://ollama.com/)
 - [Mistral Model](https://ollama.com/library/mistral)
 - [Dotenv](https://pypi.org/project/python-dotenv/)
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
